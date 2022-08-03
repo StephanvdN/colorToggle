@@ -1,0 +1,64 @@
+body {
+background-color:rgb(195, 195, 195);
+
+}
+.menu-button {
+    position: fixed;
+    top: 0px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-image:url(./images/hamburger_menu.png);
+    background-size: 100%;
+}
+
+.menu-dropdown {
+    position: fixed;
+    left: -40px;
+    bottom: 0px;
+    width: 110px;
+    height: calc(100vh - 60px);
+    z-index: 1000;
+    transition: all 0.3s ease-in-out ;
+    
+
+}
+
+.menu-dropdown ul{
+padding-top: 0px;
+overflow: hidden;
+visibility: hidden;
+
+}
+
+.menu-dropdown ul li{
+line-height: 60px;
+list-style: none;
+white-space: nowrap;
+padding-left: 20px;}
+
+.menu-dropdown ul li span{
+    display: block;
+    height: 60px;
+    white-space: nowrap;
+
+
+}
+
+#home
+{
+    background-color: rgb(195, 195, 195);
+}
+
+#red {
+    background-color: #ff0000;
+}
+#orange {
+    background-color: orange;
+}
+#purple {
+    background-color: purple;
+}
+#green {
+    background-color: green;
+}

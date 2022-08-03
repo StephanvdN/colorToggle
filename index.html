@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./toggle.js"></script>
+  </head>
+  <body>
+    <div class="menu-button" onclick="toggleNav()"></div>
+    <div class="menu-dropdown">
+      <ul>
+        <li id="home" onclick="changeBackGround('rgb(195, 195, 195)')">Home</li>
+        <li id="red" onclick="changeBackGround('red')">Red</li>
+        <li id="orange" onclick="changeBackGround('orange')">Orange</li>
+        <li id="purple" onclick="changeBackGround('purple')">Purple</li>
+        <li id="green" onclick="changeBackGround('green')">Green</li>
+      </ul>
+    </div>
+  </body>
+</html>
